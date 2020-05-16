@@ -7,12 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ["andy", "aaron", "tony"]
-  create_an_array << "rachel"
+  ["andy", "aaron"]
+  create_an_array << "tony"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  ["mother", "son", "daughter"]
+  add_element_to_start_of_array.unshift 
 end
 
 def remove_element_from_end_of_array(array)
